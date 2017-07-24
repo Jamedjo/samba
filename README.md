@@ -87,6 +87,7 @@ samba_share 'Share Name' do
   directory_mask # e.g. 0700
   read_only # yes, no, default no
   create_directory # Creates directory by default
+  options 'browseable' => 'yes'
 end
 ```
 
